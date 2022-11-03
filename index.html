@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tugas3</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container-navbar">
+        <h1>RU<span>SHOP</span></h1>
+      </div>
+    </nav>
+    <div class="idplayer">
+      <label for="id-player">Player Id : </label><br />
+      <input type="text" id="id-player" /><br />
+    </div>
+    <div class="value">
+      <label for="Items">Select Value : </label><br />
+      <select name="Items" id="Items">
+        <option value="100 Diamond">100 Diamond</option>
+        <option value="1000 Diamond">1000 Diamond</option>
+        <option value="10000 Diamond">10000 Diamond</option>
+      </select>
+    </div>
+    <div class="pay-mthd">
+      <input type="radio" id="bri" name="pay" value="BRI" />
+      <label for="bri">
+        <img src="bri.png" alt="" width="140px" height="120px" />
+      </label>
+      <br />
+      <input type="radio" id="mandiri" name="pay" value="Mandiri" />
+      <label for="mandiri">
+        <img src="mandiri.png" alt="" width="140px" height="70px" />
+      </label>
+      <br />
+      <input type="radio" id="dana" name="pay" value="Dana" />
+      <label for="dana">
+        <img src="dana.png" alt="" width="140px" height="70px" />
+      </label>
+      <br />
+      <button class="buybut" id="buy-but">BUY</button>
+    </div>
+    <div class="process" id="idprocess">
+      <h3>In Process :</h3>
+      <br />
+      <div class="inprocess" id="in-process">
+        <p>Id Player : 123456</p>
+        <p>Value : 1000 Diamond</p>
+        <p>Payment Method : BRI</p>
+      </div>
+      <div id="tempat-inprocess"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

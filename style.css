@@ -1,0 +1,60 @@
+body{
+    background-color: orange;
+    margin: 0px;
+}
+.container-navbar{
+    background-color: white;
+    padding: 10px;
+}
+.container-navbar h1{
+    margin: 10px;
+    color: orange;
+}
+.container-navbar span{
+    color: black;
+}
+.idplayer{
+background-color: white;
+padding: 15px;
+width: 700px;
+margin: auto;
+margin-top: 10px;
+border-radius: 10px;
+}
+.value{
+    background-color: white;
+    padding: 15px;
+    width: 700px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.process{
+    background-color: white;
+    padding: 15px;
+    width: 700px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.pay-mthd{
+    background-color: white;
+    padding: 15px;
+    width: 700px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.pay-mthd input{
+    margin-top: 100px;
+}
+.buybut{
+    margin-top: 50px;
+}
+.inprocess{
+    background-color: grey;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
